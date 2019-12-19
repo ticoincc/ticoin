@@ -1,0 +1,26 @@
+[Unit]
+Description=TICO's distributed currency daemon
+After=network.target
+
+[Service]
+User=ticoin
+Group=ticoin
+
+Type=forking
+PIDFile=/var/lib/ticoind/ticoind.pid
+
+ExecStart=/usr/bin/ticoind -daemon -pid=/var/lib/ticoind/ticoind.pid \
+          -conf=/etc/ticoin/ticoin.conf -datadir=/var/lib/ticoind
+
+ExecStop=-/usr/bin/ticoin-cli -conf=/etc/ticoin/ticoin.conf \
+         -datadir=/var/lib/ticoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

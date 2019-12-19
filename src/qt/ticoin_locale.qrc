@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/ticoin_bg.qm</file>
+        <file alias="ca">locale/ticoin_ca.qm</file>
+        <file alias="cs">locale/ticoin_cs.qm</file>
+        <file alias="da">locale/ticoin_da.qm</file>
+        <file alias="de">locale/ticoin_de.qm</file>
+        <file alias="en">locale/ticoin_en.qm</file>
+        <file alias="en_US">locale/ticoin_en_US.qm</file>
+        <file alias="es">locale/ticoin_es.qm</file>
+        <file alias="fi">locale/ticoin_fi.qm</file>
+        <file alias="fr_FR">locale/ticoin_fr_FR.qm</file>
+        <file alias="hr">locale/ticoin_hr.qm</file>
+        <file alias="it">locale/ticoin_it.qm</file>
+        <file alias="ja">locale/ticoin_ja.qm</file>
+        <file alias="ko_KR">locale/ticoin_ko_KR.qm</file>
+        <file alias="nl">locale/ticoin_nl.qm</file>
+        <file alias="pl">locale/ticoin_pl.qm</file>
+        <file alias="pt">locale/ticoin_pt.qm</file>
+        <file alias="pt_BR">locale/ticoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/ticoin_ro_RO.qm</file>
+        <file alias="ru">locale/ticoin_ru.qm</file>
+        <file alias="sk">locale/ticoin_sk.qm</file>
+        <file alias="sv">locale/ticoin_sv.qm</file>
+        <file alias="tr">locale/ticoin_tr.qm</file>
+        <file alias="uk">locale/ticoin_uk.qm</file>
+        <file alias="zh_CN">locale/ticoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/ticoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
